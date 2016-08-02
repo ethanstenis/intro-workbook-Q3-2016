@@ -1,0 +1,13 @@
+.main {
+  text-align: center;
+}
+
+p.biography {
+  width: 80%;
+  height: 100%;
+}
+
+.title {
+  font-size: 20px;
+  font-style: italic;
+}

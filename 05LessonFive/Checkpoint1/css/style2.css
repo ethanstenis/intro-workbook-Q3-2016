@@ -1,0 +1,41 @@
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.lawn {
+    width: 50%;
+    height: 300px;
+}
+
+.lawn h1 {
+    text-align: center;
+    font-family: monospace;
+    color: darkgray;
+}
+
+.left {
+    float: right;
+    width: 50%;
+    height: 300px;
+    margin-left: 20px;
+    background-color: lightgray;
+}
+
+.left h1 {
+    text-align: center;
+}
+
+.left p {
+    text-align: center;
+}
+
+body p {
+    font-family: monospace;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.p {
+    text-decoration: none;
+}

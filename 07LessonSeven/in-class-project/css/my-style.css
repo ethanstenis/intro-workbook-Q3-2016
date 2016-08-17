@@ -27,12 +27,7 @@ h1 {
   width: 850px;
   height: 324px;
   margin: 0 auto;
-  background-color: lightgray;
-}
-
-h3 {
-  font-size: 18px;
-  font-weight: 900;
+  background-color: #f0eaea;
 }
 
 ul {
@@ -42,13 +37,14 @@ ul {
 
 li {
   font-size: 14px;
-  padding-top: 5px;
+  padding-top: 13px;
   font-weight: lighter;
 }
 
 .column {
   float: left;
   width: 270px;
+  color: #2F4F4F;
 }
 
 .padding {
@@ -65,4 +61,23 @@ input {
   width: 75px;
   color: white;
   text-align: center;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+form {
+  padding-top: 13px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 900;
+  color: black;
 }

@@ -87,3 +87,7 @@ footer div {
   border-left: 1px solid #f7f7f7;
   border-right: 1px solid #f7f7f7;
 }
+
+i {
+  color: green;
+}

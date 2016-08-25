@@ -1,0 +1,168 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main {
+  margin-bottom: 100px;
+}
+
+nav {
+  width: 100%;
+  backgound-color: white;
+  height: 50px;
+}
+
+.logo {
+  float: left;
+  margin-top: 12px;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  float: right;
+  color: gray;
+  margin-right: 10px;
+  margin-top: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+#home {
+  background-image: url("../img/wine-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  background-blend-mode: multiply;
+  background-color: #6e6e6e;
+  text-align: center;
+}
+
+.textbox {
+  padding-top: 200px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.textbox h1 {
+  font-size: 72px;
+  margin-bottom: 100px;
+}
+
+.textbox p {
+  font-style: italic;
+  margin: 15px;
+}
+
+#about {
+text-align: center;
+}
+
+.about-text {
+  width: 50%;
+  padding-top: 350px;
+  float: left;
+  text-align: center;
+}
+
+.img {
+  float: right;
+  height: 800px;
+}
+
+.clear-fix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.about-text h3 {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+  padding-bottom: 25px;
+}
+
+.about-text h1 {
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+.about-text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+#testimonial {
+  background-image: url("../img/wine13.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  background-blend-mode: multiply;
+  background-color: #6e6e6e;
+  text-align: center;
+  margin-top: 66px;
+}
+
+.testimonial-text {
+  color: white;
+  text-align: center;
+  padding: 150px 100px 0px 100px;
+}
+
+.testimonial-text h1 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.testimonial-text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+#selection {
+  width: 100%;
+}
+
+.bottle {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+.bottle img {
+  width: 20%;
+  height: 350px;
+}
+
+.bottle h1 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.bottle p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+.bottle a {
+  color: #fff;
+  background-color: #91b203;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family:'Roboto', sans-serif;
+}

@@ -64,14 +64,20 @@ text-align: center;
 
 .about-text {
   width: 50%;
-  padding-top: 350px;
+  padding-top: 100px;
   float: left;
   text-align: center;
+  margin-left: 75px;
 }
 
 .img {
+  width: 30%;
   float: right;
-  height: 800px;
+  /*height: 800px;*/
+}
+
+.img img {
+  width: 100%;
 }
 
 .clear-fix:after {
@@ -109,7 +115,7 @@ text-align: center;
   background-blend-mode: multiply;
   background-color: #6e6e6e;
   text-align: center;
-  margin-top: 66px;
+  margin-top: -4px;
 }
 
 .testimonial-text {
@@ -142,7 +148,7 @@ text-align: center;
 
 .bottle img {
   width: 20%;
-  height: 350px;
+  height: 200px;
 }
 
 .bottle h1 {
@@ -155,7 +161,7 @@ text-align: center;
 .bottle p {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 }
 
 .bottle a {

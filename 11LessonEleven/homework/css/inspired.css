@@ -3,8 +3,75 @@ body {
 }
 
 #header {
-  background-image:url('img/bg.jpg');
+  background-image:url('../img/bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 400px;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+
+#header h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  line-height: normal;
+}
+
+#header p {
+  color: white;
+  width: 33%;
+  line-height: 30px;
+}
+
+#textarea {
+  width: 100%;
+  height: 200px;
+  background-color: lightgray;
+  margin-bottom: 50px;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.textbox {
+  float: left;
+  width: 50%;
+  margin-top: 25px;
+}
+
+.textbox h3 {
+  padding: 0px 25px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.textbox p {
+  padding: 0px 25px;
+  color: #414b4b;
+}
+
+@media (max-width: 640px) {
+
+#header {
+  background-image: url('../img/bg2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  #textarea {
+    height: 300px;
+  }
+
+  .textbox {
+    width: 100%;
+  }
+
 }

@@ -1,3 +1,7 @@
+body {
+  margin-bottom: 30px;
+}
+
 .patient {
   background-image: url('http://inspirythemes.biz/html-templates/cream/images/temp-images/hoodie_1_back-470x470.jpg');
   height: 300px;
@@ -41,6 +45,16 @@
   position: absolute;
   bottom: 131px;
   right: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.sale {
+  background-color: red;
+  padding: 5px 10px;
+  position: absolute;
+  color: white;
+  font-weight: bold;
 }
 
 header {
@@ -97,23 +111,23 @@ h4 a:hover {
   background-color: #66d9c1;;
   padding: 10px 15px;
 }
-/*
-.box1 {
-  border: 1px solid lightgray;
-  padding: 0px;
+
+/* The following CSS is for tablet */
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+  .ship-idea, .flying {
+    margin-top: 30px;
+  }
+
 }
 
-.box2 {
-  border: 1px solid lightgray;
-  padding: 0px;
-}
+/* The following CSS is for phone */
 
-.box3 {
-  border: 1px solid lightgray;
-  padding: 0px;
-}
+@media (max-width: 767px) {
 
-.box4 {
-  border: 1px solid lightgray;
-  padding: 0px;
-}*/
+  .happy, .ship-idea, .flying {
+    margin-top: 30px;
+  }
+
+}

@@ -44,14 +44,13 @@ body {
   .hero h1 {
     padding-top: 130px;
     font-family: serif;
-    /*font-size: 20px;*/
   }
 }
 
 @media (max-width: 768px) {
   .hero h1 {
     padding-top: 130px;
-    font-size: 38px;
+    font-size: 40px;
   }
 
   .hero p {

@@ -1,0 +1,201 @@
+a.navbar-brand {
+  color: white;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+}
+
+li a {
+  color: white;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#hero {
+  background-image: url('../img/wine-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: darkgray;
+  height: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar {
+  margin-bottom: -52px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbar-toggle {
+  border-color: #ddd;
+}
+
+span.icon-bar {
+  background-color: #ddd;
+}
+
+.f-period {
+  margin: 80px auto 0 auto;
+  opacity: 0.7;
+  height: 500px;
+}
+
+.hero-text {
+  color: white;
+  margin-top: 10px;
+}
+
+.hero-text p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.hero-text h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+#about-us {
+  width: 100%;
+  height: 800px;
+}
+
+
+.about-text {
+  text-align: center;
+  margin: 200px auto 0 auto;
+  width: 75%;
+}
+
+.signature {
+  height: 75px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.wineman {
+  width: 50%;
+  height: 800px;
+  background-image: url('../img/wine16.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-text h4 {
+  font-family: 'Satisfy', cursive;
+  color: darkgray;
+  font-size: 14px;
+}
+
+.about-text h2 {
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.about-text p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  line-height: 35px;
+}
+
+#testimonials {
+  background-image: url('../img/wine13.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: darkgray;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.test-text {
+  text-align: center;
+  color: white;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.test-text h1 {
+  margin-top: 200px;
+  font-family: 'Satisfy', cursive;
+  font-size: 48px;
+  line-height: 75px;
+}
+
+.test-text p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  line-height: 35px;
+}
+
+#wine-selection {
+  width: 100%;
+  height: 800px;
+}
+
+.wine-bottle {
+  width: 33.33%;
+  text-align: center;
+}
+
+.bottle {
+  height: 550px;
+  margin: 0 auto;
+  margin-bottom: -20px;
+}
+
+#wine-selection h1 {
+  font-size: 36px;
+  font-family: 'Satisfy', cursive;
+  font-weight: bold;
+  padding-top: 25px;
+  border-top: 1px solid darkgray;
+}
+
+#wine-selection p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  padding: 15px;
+}
+
+#wine-selection a {
+  color: #fff;
+  background-color: #91b203;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* -- TABLET -- */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .about-text {
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .wineman {
+    height: 400px;
+    width: 100%;
+  }
+
+
+
+}
+
+/* -- PHONE -- */
+
+@media (max-width: 767px) {
+
+}

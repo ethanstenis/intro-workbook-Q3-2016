@@ -1,10 +1,132 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lesson 15 Checkpoint - The Winery</title>
+
+<!-- CSS and Google fonts -->
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway|Satisfy" rel="stylesheet">
 </head>
+
 <body>
 
+<!-- Bootstrap responsive navigation -->
+
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">FOUNDRY</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav pull-right">
+                    <li class="active"><a href="#">HOME</a></li>
+                    <li><a href="#about-us">ABOUT US</a></li>
+                    <li><a href="#testimonials">TESTIMONIALS</a></li>
+                    <li><a href="#wine-selection">WINE SELECTION</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- website landing page with company logo -->
+
+    <section id="hero">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="f-period img-responsive" src="img/fperiod.png" alt="company logo" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="hero-text col-lg-12">
+                    <p>"Without a doubt, one of the most consistently
+                        <br> high-quality wineries in the Barossa region."</p>
+                    <h3>Ethan Luke - Respected Sommelier</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- This section includes company story and image of wine man -->
+
+    <section id="about-us">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pull-right wineman"></div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="about-text">
+                        <h4>• EST. 1968 •</h4>
+                        <h2>Combining over 100 years of hard <br>work and shared family knowledge</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        <img class="img-responsive signature" src="img/winesig.png" alt="founders-signature">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- section for main testimonial from owner -->
+
+    <section id="testimonials">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                  <div class="test-text">
+                    <h1>"We've been producing fine wine for over 65 years, I think we know what we're talking about."</h1>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- section for purchasing featured wines -->
+
+    <section id="wine-selection">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="col-lg-4 col-sm-6 col-xs-12 wine-bottle">
+              <img class="img-responsive bottle" src="img/wine3.jpg" alt="Foundry Shiraz"/>
+              <h1>Foundry Shiraz</h1>
+              <p>Aged five years in solid, French Oak barrels sports notes of pepper and blackberry.</p>
+              <a href="#">VISIT SHOP</a>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 col-xs-12 wine-bottle">
+              <img class="img-responsive bottle" src="img/wine6.jpg" alt="Foundry Chardonnay">
+              <h1>Foundry Chardonnay</h1>
+              <p>A rich fruit palet with subtle Oak influence and a lingering dry, fresh finish.</p>
+              <a href="#">VISIT SHOP</a>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 col-xs-12 wine-bottle">
+              <img class="img-responsive bottle" src="img/wine7.jpg" alt="Foundry Merlot"/>
+              <h1>Foundry Merlot</h1>
+              <p>Generous sweet black currant and mulberry character with soft, velvety tannins.</p>
+              <a href="#">VISIT SHOP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- JS libraries -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
+
 </html>

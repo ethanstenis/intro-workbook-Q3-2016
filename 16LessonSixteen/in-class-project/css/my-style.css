@@ -1,13 +1,118 @@
-html{
-    font-family: sans-serif;
+/*body {
+  margin: 0 auto;
+}*/
+
+img {
+  width: 100%;
+  height: 100%;
 }
 
-main {
-    padding: 250px 0;
-    text-align: center;
+.one {
+  background-color: #f4ed47;
 }
 
-main h1 {
-    color: #f35626;
-    font-size: 3em;
+.one, .ten {
+  height: 580px;
+  width: 97%;
+  margin: 10px auto;
 }
+
+.two, .four, .eight, .nine, .five, .six, .three, .seven {
+  height: 280px;
+  margin: 10px;
+}
+
+/*.two, .four, .eight, .nine {
+  background-image: url("http://cache.boston.com/bonzai-fba/Original_Photo/2011/11/23/pizza__1322067494_5957.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.five {
+  background-image: url("http://toninospizzaandpasta.com/wp-content/uploads/2014/04/pizza-page.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.six {
+  background-image: url("http://kingrichiespizza.com/wp-content/uploads/2015/12/d5a3498cfc9e53130b5f815ef44713b7_Jet.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+.ten, .seven, .three{
+  background-color: #eaeaea;
+}
+
+.fix {
+  margin-top: -300px;;
+}
+
+
+@media (max-width: 991px) {
+  .fix {
+    margin-top: 0;
+  }
+}
+/*6, 8, 9 are images*/
+
+i.fa {
+  font-size: 30px;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.three i.fa, .seven i.fa {
+  margin-top: 25%;
+}
+
+h2 {
+  max-width: 70%;
+  line-height: 50px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+h4 {
+  max-width: 70%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+p {
+  max-width: 70%;
+  margin-left: 10%;
+  margin-top: 5%;
+  line-height: 30px;
+}
+
+.eleven {
+  background-color: #f4ed47;
+  height: 150px;
+  text-align: center;
+  margin: -30px auto;
+  width: 97%;
+}
+
+.eleven h4 {
+  font-size: 30px;
+  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 767px) {
+  .three i.fa, .seven i.fa {
+    margin-top: 15%;
+  }
+  .eleven h4 {
+    padding-top: 20%;
+  }
+}
+
+/*.col-md-6 {
+  margin-left: -2%;
+}*/

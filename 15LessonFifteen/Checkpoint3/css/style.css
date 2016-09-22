@@ -239,6 +239,7 @@ span.icon-bar {
   .about-text {
     text-align: center;
     margin-top: 20px;
+    width: 90%;
   }
 
   .about-text h4 {
@@ -247,13 +248,13 @@ span.icon-bar {
   }
 
   .about-text h2 {
-    font-size: 22px;
+    font-size: 20px;
     width: 90%;
   }
 
   .about-text p {
-    font-size: 14px;
-    width: 90%;
+    font-size: 12px;
+    width: 95%;
     margin-bottom: 5px;
   }
 
@@ -268,12 +269,12 @@ span.icon-bar {
 
   .test-text h1 {
     margin-top: 50px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 40px;
   }
 
   .test-text p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .wine-bottle {
